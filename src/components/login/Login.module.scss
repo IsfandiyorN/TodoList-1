@@ -1,0 +1,72 @@
+$radius: 8px;
+
+.login {
+  margin: auto;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border-radius: $radius;
+  
+  
+  button[type="Sign In"] {
+    width: 100%;
+    border-radius: 10px;
+    background: #76DE37;
+    height: 40px;
+    flex-shrink: 0;
+    border: transparent;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.signIn{
+  width: 580px;
+}
+
+h2{
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.form-control {
+  margin-bottom: 2em;
+  
+  label {
+    display: block;
+    text-align: left;
+  }
+  
+  input {
+    width: 301px;
+    height: 32px;
+    width: 100%;border-radius: 7px;
+    border: 1px solid #000;
+    background: #FFF9F9;
+  }
+  
+  userName {
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+
+.error {
+  color: red;
+}
