@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.todolist{
+    border: 1px solid black;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    margin: 50px;
+    padding-left: 20px;
+    
+
+    .todoH2{
+        color: #000;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: sans-serif;
+    }
+
+    .inputContainer{
+        width: 766px;
+        height: 41px;
+    }
+
+
+    .todo-text{
+        // color: rgba(0, 0, 0, 0.70);
+        font-family: "Noto Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}
+
+
+
+
